@@ -9,7 +9,9 @@ To recreate the conda environment run:
 ## Executing the code
 
 To run the code after activating the conda environment:
-> python train.py
+
+1. specify in train.py, ln 143 the directory where the cifar-10 folder is located 
+3. run: python train.py
 
 ## Training progress
 ![plot](./images/train_progress.png)
